@@ -1,6 +1,8 @@
 Site::Application.routes.draw do
 
 
+  devise_for :admin_users
+
   devise_for :users
 
   resources :posts do
