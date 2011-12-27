@@ -1,0 +1,8 @@
+# Use the README file as a reference to customize settings.
+
+Post:
+  fields:
+    default: to_label
+    form: 
+  relationships: tags, comments
+  application: Application
