@@ -2,7 +2,10 @@
 
 Post:
   fields:
-    default: to_label
-    form: 
+    default: title
+    form: title, content
+    options:
+    templates:
+    content: text_with_ckeditor
   relationships: tags, comments
   application: Application
