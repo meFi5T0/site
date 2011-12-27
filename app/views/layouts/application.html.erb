@@ -2,13 +2,48 @@
 <html>
 <head>
   <title>Site</title>
-  <%= stylesheet_link_tag    "application" %>
-  <%= javascript_include_tag "application" %>
+  <%= render 'layouts/stylesheets' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
+<div id="wrapper">
+
+<%= render 'layouts/logo' %>
+<%= render 'layouts/login_form' %>
+
+<hr class="noscreen" />
+ <div class="content">
+
+<%= render 'layouts/menu' %>
+
+		<div id="skip-menu"></div>
+		<div class="column-right">
+		   <div class="box">
+			<div class="box-top"></div>
+			 <div class="box-in">
+               <p class="notice"><%= notice %></p>
+               <p class="alert"><%= alert %></p>
+
+<h2>Welcome to my website</h2>
+
 <%= yield %>
+
+			 </div>
+			</div>
+
+           <div class="box-bottom">
+<hr class="noscreen" />
+
+<%= render 'layouts/footer' %>
+
+			</div>
+		</div>
+
+	<div class="cleaner">&nbsp;</div>
+ </div>
+</div>
+
 
 </body>
 </html>

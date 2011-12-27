@@ -1,0 +1,14 @@
+    <div id="log">
+        <% if user_signed_in? %>
+
+          <font color='#ffffff'>Signed in as
+            <%= current_user.email %>. Not you?
+          </font>
+           <%= link_to ('Sign up',  destroy_user_session_path, :method => :delete) %>
+            <% else %>
+            <%= link_to 'Sign up', new_user_registration_path %>
+              <font color='#ffffff'> or
+              </font>
+              <%= link_to 'sign in', new_user_session_path %>
+        <% end %>
+    </div>
