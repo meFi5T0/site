@@ -1,5 +1,6 @@
 Typus.setup do |config|
 
+  config.authentication = :devise
   # Application name.
   # config.admin_title = "Typus"
   # config.admin_sub_title = ""
