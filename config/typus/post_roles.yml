@@ -1,4 +1,7 @@
 # Use the README file as a reference to customize settings.
 
 admin:
+  Category: all
   Post: create, read, update, delete
+  Newsletter: create, read, update, deliver
+  Redis: all
