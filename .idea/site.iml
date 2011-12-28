@@ -52,10 +52,12 @@
     <orderEntry type="library" scope="PROVIDED" name="rdoc (v3.12, ruby-1.8.7-p334) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mysql2 (v0.3.11, ruby-1.8.7-p334) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.1.12, ruby-1.8.7-p334) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="paperclip (v2.4.5, ruby-1.8.7-p334) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.0.21, ruby-1.8.7-p334) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, ruby-1.8.7-p334) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.2.0, ruby-1.8.7-p334) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="treetop (v1.4.10, ruby-1.8.7-p334) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="cocaine (v0.2.0, ruby-1.8.7-p334) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.3.0, ruby-1.8.7-p334) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activeresource (v3.1.1, ruby-1.8.7-p334) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="json (v1.6.3, ruby-1.8.7-p334) [gem]" level="application" />

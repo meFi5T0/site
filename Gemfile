@@ -23,6 +23,8 @@ gem 'mysql2'
 #gem 'devise'
 #gem "typus"
 gem "ckeditor"
+gem "paperclip"
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
