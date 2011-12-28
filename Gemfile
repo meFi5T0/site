@@ -20,9 +20,9 @@ gem 'jquery-rails'
 gem 'jquery-rails'
 gem 'therubyracer'
 gem 'mysql2'
-gem 'devise'
-gem "typus"
-gem "rails-ckeditor"
+#gem 'devise'
+#gem "typus"
+gem "ckeditor"
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
