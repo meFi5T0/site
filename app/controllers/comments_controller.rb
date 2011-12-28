@@ -1,5 +1,5 @@
 class CommentsController < ApplicationController
-  http_basic_authenticate_with :name => "admin", :password => "140677", :only => :destroy
+  #http_basic_authenticate_with :name => "admin", :password => "140677", :only => :destroy
 
   def create
     @post = Post.find(params[:post_id])

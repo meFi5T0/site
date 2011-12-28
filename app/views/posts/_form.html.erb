@@ -12,21 +12,25 @@
   <% end %>
 
   <div class="field">
-    <%= post_form.label :name %><br />
-    <%= post_form.text_field :name %>
+    <%= post_form.label :name %><br>
+    <%= post_form.text_field :name %><br>
   </div>
   <div class="field">
-    <%= post_form.label :title %><br />
-    <%= post_form.text_field :title %>
+    <%= post_form.label :title %><br>
+    <%= post_form.text_field :title %><br>
   </div>
   <div class="field">
-    <%= post_form.label :content %><br />
-    <%= post_form.text_area :content %>
+  <%= post_form.label :content %><br>
+  <%= post_form.cktext_area :content, :toolbar=>'Full', :width=>'560px', :heigth=>'200px' %>
+
+    <br>
   </div>
-  <h2>Tags</h2>
-  <%= render :partial => 'tags/form',
-             :locals => {:form => post_form} %>
+
+  <%= render :partial => 'tags/form', :locals => {:form => post_form} %><br>
   <div class="actions">
-    <%= post_form.submit %>
+    <%= post_form.submit %><br>
   </div>
 <% end %>
+
+
+
